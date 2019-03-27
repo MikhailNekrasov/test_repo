@@ -1,0 +1,472 @@
+* {
+    margin: 0;
+    padding: 0;
+	z-index: 1;
+}
+ 
+ html {
+    height: 100%;
+}
+ 
+header, nav, section, main, article, aside, footer {
+    display: block;
+}
+
+footer p {
+	margin-left: 35px;
+}
+ 
+body {
+    height: 100%;
+    width: 100%;
+    background: #ffffff;
+	letter-spacing: 0.4px;
+	position: absolute;
+}
+
+.service ul{
+	padding : 25px;
+}
+
+.service li{
+	padding : 5px;
+}
+
+.sub-menu 
+{ 
+   	top: 70px;
+	right: 0px;
+	position: fixed;
+	display: none; 
+	z-index: 10;
+	width: 100%;
+} 
+ 
+.sub-menu  li
+{ 
+	padding : 10px 15px 7px 20px;
+	background: #fff; 
+	border-top: 1px dotted black; /* Белая рамка */
+	list-style-type: none;
+    /*border-radius: 10px; */
+}
+.sub-menu_series
+{ 
+   	
+	
+	background: #fff; 
+	display: none; 
+	z-index: 10;
+	
+} 
+.sub-menu_series  li
+{ 
+	padding : 10px 15px 7px 20px;
+	background: #fff; 
+	border-top: 1px dotted black; /* Белая рамка */
+	list-style-type: none;
+    /*border-radius: 10px; */
+}
+/*
+.main-item:focus ~ .sub-menu, 
+.main-item:active ~ .sub-menu, 
+.sub-menu:hover 
+{ 
+   display: block; 
+} */
+ 
+.maxw {
+    margin: 0 auto;
+    min-width: 240px;
+    max-width: 1920px;
+}
+
+.maxw_lim {
+    margin: 0 auto;
+	padding : 0 ;
+    min-width: 240px;
+    max-width: 1300px;
+}
+
+.menu_row {
+    margin: 0 auto;
+	clear : both ;
+	text-align: center;
+	font-size: xx-large;
+}
+
+#menu_lim {
+    margin: 0 auto;
+	padding : 0 ;
+    min-width: 240px;
+    max-width: 800px;
+}
+
+ 
+header {
+    min-width: 240px;
+    width: 100%;
+    background: #ffffff;
+	font-family: Adws;
+	
+}
+
+.fancy_font {
+	font-family: Adws;
+	}
+.fancy2_font {
+	font-family: Fgb;
+	}
+.med_font {
+	font-size: x-large;
+	font-weight: bolder;
+	}	
+	
+.large_font {
+	font-size: 250%;
+	font-weight: bolder;
+	}
+	
+.small_font {
+	font-size: small;
+	font-weight: lighter;
+	}	
+.text_align_middle {
+	text-align: center ;
+	}
+	
+#top {
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	position: fixed;
+	height: 130px;
+	z-index: 21;
+}
+
+  .shadowtext {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Параметры тени  , 0 0 1em red  */
+   }
+
+.top_z {
+	z-index: 8;
+}
+
+.no_underline {
+	text-decoration: none;
+	color: black;
+}
+
+.no_underline:hover {
+	text-decoration: none;
+	color: black;
+}
+
+.no_underline :visited{
+	text-decoration: none;
+	color: black;
+}
+
+.no_underline:link {
+	text-decoration: none;
+	color: black;
+}
+
+.top_menu_button
+{
+	display: inline;
+	padding: 20px 10px;
+}
+
+.top_menu_button a
+{
+	text-decoration: none;
+	color: black;
+}
+
+#top_logo
+ {
+	display: inline;
+	/*margin-top: 10px;
+	padding: 10px 0 0 20px;*/
+	font-size: 2em;
+}
+
+#top_tel
+{
+	display: inline;
+	padding: 20px 20px 0 0;
+	white-space: nowrap; 
+}
+
+#wrapper {
+    position: relative;
+    margin: 0 auto;
+	min-height: 210px;
+    height: auto !important;
+    height: 100%;
+   /* min-height: 100%;  /*-  Нужно для прижатия футера к низу*/
+    padding:  0;
+	top: 130px;
+}
+ 
+.section {
+    width: 100%;
+    position: relative;
+}
+ 
+.section:after {
+    content: '';
+    clear: both;
+    display: table;
+}
+ 
+.mainwrap {
+    width: 100%;
+    float: left;
+    overflow: hidden;
+}
+
+#swipe_img {
+    min-height: 160px;
+}
+
+#swipe_img1 {
+
+	top: 0px;
+	position: absolute;
+	/*background-image: url(/inc/main_bg/1.jpg);*/
+    height: 100%;
+	width: 100%; 
+    background-repeat: no-repeat;
+	background-size: auto;	
+	background-position: center center;
+	opacity: 1;
+	z-index: 6;
+}
+
+#swipe_img2 {
+	top: 0px;
+	position: absolute;
+	/*background-image: url(/inc/main_bg/2.jpg);*/
+    height: 100%;
+	width: 100%; 
+    background-repeat: no-repeat;
+	background-size: auto;	
+	background-position: center center;
+	opacity: 0;
+	z-index: 5;
+}
+
+ 
+main {
+
+}
+ 
+article {
+
+}
+ 
+#slide_left {
+    float: left;
+    width: 40px;
+    left: 0;
+	top: 50%;
+    position: absolute;
+    background: #909090;
+    min-height: 40px;
+	z-index: 10;
+	border-radius: 0 10px 10px 0;
+	font-size :x-large;
+	text-align: center;
+	padding-top: 5px;
+	opacity: 0.60;
+}
+ 
+#slide_right {
+    float: left;
+    width: 40px;
+    right: 0;
+	top: 50%;
+    position: absolute;
+    background: #909090;
+    min-height: 40px;
+	z-index: 10; 
+	border-radius: 10px 0 0 10px;
+	font-size :x-large;
+	text-align: center;
+	padding-top: 5px;
+	opacity: 0.60;
+}
+
+
+footer {
+    margin: auto 0;
+    width: 100%;
+    min-width: 240px; 
+   
+	font-size: x-large;
+	font-family: Adws;
+	padding: 20px 0 20px;
+	position: fixed;
+	bottom: 0px;
+}
+#footer_div {
+    margin: auto 0;
+    max-width: 100%;
+    min-width: 240px; 
+    background: #717171;
+	position: relative;
+	bottom: 0px;
+}
+
+#footer_text_lim {
+    margin: auto;
+    max-width: 1800px;
+    min-width: 240px; 
+	font-size: x-large;
+	font-family: Adws;
+	padding: 10px ;
+}
+
+#small_menu
+                       {
+                        display: none;
+						background : url(inc/img/logo_menu.png);
+						height: 45px;
+						width: 45px;
+						float: right;
+						padding: 15px 20px ;    
+						background-repeat: no-repeat;
+						background-position: center center;
+						background-size: 45px 45px;
+             }
+			 
+			 
+.plate	{
+	width :25%;
+	min-height: 150px ;
+	height: 350px;
+	max-height: 480px;
+	float: left;
+	position:relative;
+}
+
+.vert_ali	{
+	vertical-align:middle;
+}
+
+.plate img	{
+	height :100%;
+	/*position: absolute;*/
+}
+			 
+ 
+.plate p	{
+	vertical-align:middle;
+	width: 100%;
+}
+
+
+/* Для отображения на устройствах меньше 980px*/       
+        @media screen and (min-width:240px) and (max-width:479px) {
+             
+                main {
+                        padding:10px;
+                    }
+					
+                     .top_menu_button {
+                        display: none;
+                    }
+					#top_tel {
+                        display: none;
+                    }
+					#top {
+                        font-size: large;
+						height: 70px;
+                    }
+					header {
+						
+					}
+					#wrapper {
+						top: 70px;
+						z-index: 15;
+						min-height: 210px;
+					}
+					#small_menu	{
+                        display: block;
+						padding: 27px 15px 0 0;
+                    }
+
+					footer {
+						font-size: large;
+						padding : 20px 0;
+					}
+					#top_logo
+					 {
+						position: relative;
+						top: 8px;
+					}
+					.plate	{
+						width :100%;
+					}
+					
+					.plate_1	{
+						/*display: block;*/
+					}	
+					.plate_3	{
+						/*display: none;*/
+					}
+        }
+         
+        @media screen and (min-width:480px) and (max-width:829px) {
+             
+                main {
+                        padding:10px;
+                    }
+                     
+                   .top_menu_button {
+						padding: 20px 2px;
+					}
+
+					#top_tel {
+                        padding-right: 1px;
+                    }
+
+					footer {
+						font-size: large;
+						padding : 25px 0 25px 0;
+					}
+					.plate	{
+						width :50%;
+					}
+					.sub-menu {
+						display: none;
+					}
+        }
+         
+        @media screen and (min-width:830px) and (max-width:979px) {
+         
+                main {
+                        padding:10px;
+                    }
+                     
+					.plate	{
+						/*width :33%;*/
+					}
+                
+				
+        }
+		
+		
+		  @font-face   {
+    font-family: Adws; /* Имя шрифта */
+	font-weight: bold;
+    src: url(inc/adws.otf); /* Путь к файлу со шрифтом */
+   }
+   
+   		  @font-face   {
+    font-family: Fgb; /* Имя шрифта */
+	font-weight: bold;
+    src: url(inc/TTDrugs-Thin.otf); /* Путь к файлу со шрифтом */
+   }
